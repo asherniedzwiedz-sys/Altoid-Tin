@@ -1,0 +1,82 @@
+** Drc report for AtoidtsTin.kicad_pcb **
+** Created on 2026-10-05T17:39:36 **
+** Report includes: Errors, Warnings **
+
+** Found 2 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(-108.0950 mm, -47.7300 mm): Segment of J3 on B.Silkscreen
+    @(-107.9750 mm, -35.2500 mm): Reference field of R14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(-107.9750 mm, -35.2500 mm): Reference field of R14
+    @(-109.4750 mm, -36.3000 mm): PTH pad 6 [/SPI_MOSI] of J3
+
+** Found 14 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-71.9750 mm, -16.0000 mm): PTH pad 1 [/BTN_START_N] of SW9
+    @(-63.7250 mm, -17.7500 mm): Track [/BTN_START_N] on B.Cu, length 2.4749 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-60.9750 mm, -16.0000 mm): Track [/BTN_SELECT_N] on B.Cu, length 1.5500 mm
+    @(-54.4750 mm, -16.0000 mm): PTH pad 1 [/BTN_SELECT_N] of SW10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-45.9750 mm, -20.0000 mm): Track [/BTN_B_N] on F.Cu, length 13.1189 mm
+    @(-39.4750 mm, -20.0000 mm): PTH pad 1 [/BTN_B_N] of SW6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-85.4750 mm, -46.0000 mm): Track [/BTN_UP_N] on F.Cu, length 4.3134 mm
+    @(-91.9750 mm, -46.0000 mm): PTH pad 1 [/BTN_UP_N] of SW1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-91.9750 mm, -20.0000 mm): PTH pad 1 [/BTN_DOWN_N] of SW2
+    @(-85.4750 mm, -27.0000 mm): Track [/BTN_DOWN_N] on F.Cu, length 7.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-39.4750 mm, -46.0000 mm): PTH pad 1 [/BTN_Y_N] of SW8
+    @(-45.9750 mm, -46.0000 mm): Track [/BTN_Y_N] on F.Cu, length 2.0125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-94.2515 mm, -57.0000 mm): Track [/BTN_L_N] on F.Cu, length 7.2235 mm
+    @(-107.9750 mm, -57.0000 mm): PTH pad 1 [/BTN_L_N] of SW11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-71.4750 mm, -55.0000 mm): Track [Net-(R2-Pad2)] on B.Cu, length 0.9899 mm
+    @(-77.9750 mm, -55.0000 mm): PTH pad 1 [Net-(R2-Pad2)] of SW13
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-49.4750 mm, -55.0000 mm): Track [/SBC_SHUTDOWN_N] on B.Cu, length 1.6546 mm
+    @(-55.9750 mm, -55.0000 mm): PTH pad 1 [/SBC_SHUTDOWN_N] of SW15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-104.9750 mm, -33.0000 mm): PTH pad 1 [/BTN_LEFT_N] of SW3
+    @(-95.4650 mm, -33.0000 mm): Track [/BTN_LEFT_N] on B.Cu, length 3.0101 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-32.9750 mm, -33.0000 mm): Track [/BTN_A_N] on F.Cu, length 3.6659 mm
+    @(-26.4750 mm, -33.0000 mm): PTH pad 1 [/BTN_A_N] of SW5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-72.4750 mm, -33.0000 mm): Track [/BTN_RIGHT_N] on F.Cu, length 1.9625 mm
+    @(-78.9750 mm, -33.0000 mm): PTH pad 1 [/BTN_RIGHT_N] of SW4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-24.4750 mm, -57.0000 mm): PTH pad 1 [/BTN_R_N] of SW12
+    @(-30.9750 mm, -57.0000 mm): Track [/BTN_R_N] on F.Cu, length 1.8385 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-60.4750 mm, -55.0000 mm): PTH pad 1 [/RP_RUN] of SW14
+    @(-66.9750 mm, -55.0000 mm): Track [/RP_RUN] on F.Cu, length 1.8385 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

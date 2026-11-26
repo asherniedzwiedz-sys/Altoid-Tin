@@ -1,0 +1,21 @@
+ERC report (2026-09-27T21:10:29, Encoding UTF8)
+Report includes: Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(3850 mils, 2550 mils): Label 'TFT_BL_PWM'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5900 mils, 2100 mils): Label 'TFT_LED'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5900 mils, 2800 mils): Label 'TFT_VCC'
+
+ ** ERC messages: 3  Errors 0  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

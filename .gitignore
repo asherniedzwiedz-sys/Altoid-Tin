@@ -1,0 +1,15 @@
+# Too big for GitHub (100 MB limit) and not project work
+Misc/*.img
+Misc/*.img.xz
+Misc/*.exe
+
+# Editor / tool state
+.history/
+.claude-flow/
+.swarm/
+
+# KiCad per-user and lock files
+*.lck
+*.kicad_prl
+fp-info-cache
+~$*
